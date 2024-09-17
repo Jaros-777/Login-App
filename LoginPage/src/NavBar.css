@@ -1,0 +1,14 @@
+#nav-container{
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-container button{
+    height: 70%;
+    padding: 2vh;
+    text-align: center;
+}

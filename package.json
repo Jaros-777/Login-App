@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "react-router-dom": "^6.26.2"
+  },
+  "dependencies": {
+    "uuidv4": "^6.2.13"
+  }
+}
