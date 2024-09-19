@@ -3,12 +3,18 @@
     width: 100vw;
     background-color: grey;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    position: absolute;
+    top: 0px;
 }
 
 #nav-container button{
     height: 70%;
     padding: 2vh;
     text-align: center;
+    margin: 0vw 1vw
+}
+#nav-container p{
+    margin: 0vw 1vw
 }

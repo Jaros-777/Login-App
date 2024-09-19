@@ -1,0 +1,38 @@
+
+
+
+#login-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30vw;
+    height: 60vh;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+#login-container input{
+    height: 10%;
+    width: 70%;
+    border-radius: 10px;
+    padding: 2vh;
+}
+#login-container input[type="text"]{
+    font-size: 2vh;
+}
+
+::placeholder{
+    font-size: 2vh;
+}
+
+#login-container button{
+    height: 10%;
+    width: 50%;
+}
+
+#login-container p{
+    font-size: 2vh;
+}

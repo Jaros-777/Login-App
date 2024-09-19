@@ -1,21 +1,21 @@
-
-import './App.css'
-import NavBar from './NavBar'
-import { Outlet, Link } from "react-router-dom";
-import { UserContext } from './CreateAccount';
-import { useContext } from 'react';
+import { userContext } from "./App";
+import { useContext } from "react";
+import "./HomePage.css";
+import NavBar from "./NavBar";
 
 function HomePage() {
-
-    const userName = useContext(UserContext)
+  const { name, surname } = useContext(userContext);
 
   return (
     <>
-    <NavBar></NavBar>
-    <p>{userName}</p>
-    <p>hej</p>
+      <NavBar></NavBar>
+      <div id="info-container">
+        <p style={{marginBottom: "1vh"}} >Current Logged</p>
+        <p>{name}</p>
+        <p>{surname}</p>
+      </div>
     </>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

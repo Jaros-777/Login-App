@@ -1,0 +1,9 @@
+#info-container{
+    border: 2px solid white;
+    padding: 2vh;
+    background-color: rgb(107, 107, 107);
+}
+
+#info-container p{
+    font-size: 3vh;
+}
