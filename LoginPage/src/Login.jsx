@@ -17,7 +17,7 @@ function Login() {
         setAnswer("Logged in correctly");
         setSurname(userList[i].surname)
         setName(userList[i].name)
-        window.location.pathname = '/'
+        // window.location.pathname = '/'
         return;
       }
     }

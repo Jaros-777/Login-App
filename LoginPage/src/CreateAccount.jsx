@@ -46,11 +46,6 @@ function CreateAccount() {
         >
           Add User
         </button>
-        {userList.map((user) => (
-          <li key={user.id}>
-            {user.name} {user.surname}
-          </li>
-        ))}
       </div>
     </>
   );

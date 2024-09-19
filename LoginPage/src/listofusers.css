@@ -1,0 +1,21 @@
+
+#list-container{
+    height: 70%;
+}
+
+ul{
+    overflow-y: scroll;
+    height: 90%;
+    margin: 2vh;
+}
+
+li{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 2vh;
+    padding: 1vh;
+    font-size: 3vh;
+    background-color: grey;
+    list-style: none;
+}
+
